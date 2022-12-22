@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023년 신년 계획</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
+        * {
+            font-family: 'Hahmlet', serif;
+        }
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+            background-size: cover;
+            background-position: center;
+            
+            margin: auto;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+        }
+
+        .title {
+            background-color: tomato;
+            border-radius: 10px;
+            padding: 4px 14px;
+            color: white;
+        }
+
+        .msg {
+            margin: -5px 0 15px;
+            font-weight: bold
+        }
+
+        .done::after {    
+        content: "";
+        width: 70%;
+        height: 70%;
+        background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/stamp.png");
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 20%;
+        opacity: 0.2;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css"href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg center">
+    <h1 class="title-t2">PLAN 2023</h1>
+    <p class="msg">성취감을 얻는 2023년 되자!</p>
+    <div class="flex-row wrap">
+        <div class="bucket img1-t2 center done">영어공부, 책 읽기 꾸준히 하기</div>
+        <div class="bucket img2-t2 center done">자격증 두 개 이상 따기</div>
+        <div class="bucket img2-t2 center done">운동하기. 최종목표: 마라톤 하기</div>
+        <div class="bucket img1-t2 center done">좋은 조명, 턴테이블 or 스피커 사기</div>
+        <div class="bucket img1-t2 center done">유용한 웹사이트 또는 어플 만들기</div>
+        <div class="bucket img2-t2 center done">매일매일 짧게라도 글 쓰기</div>
+    </div>
+</body>
+
+
+</html>
